@@ -1,0 +1,27 @@
+{
+  "name": "fsd/fsd",
+  "description": "fsd",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "TusPhpS3\\": "src"
+    }
+  },
+  "homepage": "https://github.com/fsd/fsd",
+  "authors": [
+    {
+      "name": "Doe",
+      "email": "example@example.com",
+      "homepage": "https://www.google.com/"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "psr/container": "^1.0",
+    "league/flysystem-aws-s3-v3": "^1.0",
+    "ankitpokhrel/tus-php": "^2.0",
+    "aws/aws-sdk-php": "^3.168",
+    "guzzlehttp/guzzle": "^7.2.0",
+    "symfony/http-foundation": "^5.2"
+  }
+}
